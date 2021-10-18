@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Birthday Form</title>
+	<link rel="stylesheet" href="css/mainstyle.css">
+</head>
+<body>
+    <div>
+      <ul>
+        <li><a href="index.html">BIRTHDAY FORM</a></li>
+        <li><a href="displaydata.php">DISPLAY BIRTHDAYS</a></li>
+        <li><a href="sendemails.php">SEND EMAILS</a></li>
+      </ul>
+    </div>
+    <div>
+        <h1>Birthday Form</h1>
+        <form action="birthdayform.php" method="post">
+            <label for="birthdayform">
+                <p>*First Name: <input type="text" name="firstname" placeholder="First Name" required></p>
+                <p>*Surname: <input type="text" name="surname" placeholder="surname" required></p>
+                <p>*Birthday date: <input type="date" name="birthdaydate" required></p>
+                <p>*Email: <input type="email" name="email" placeholder="Email" required></p>
+                <p>*Required Fields</p>
+                <input type="submit">
+            </label>
+        </form>
+    </div>
+</body>
+</html>
